@@ -1,19 +1,21 @@
+# Setup
 
-## Setup
-
-To build outputs, this repo requires:
-
-* [pandoc](https://pandoc.org/) to convert from source
-* [nsheff/mediabuilder](http://github.com/nsheff/mediabuilder) for PDF templates
-* [nsheff/pandoc-wrapfig](http://github.com/nsheff/pandoc-wrapfig) to wrap figures concisely in PDFs
+To build outputs, this follow the instructions at for
+[nsheff/mediabuilder](http://github.com/nsheff/mediabuilder).
 * [databio/papers](http://github.com/databio/papers) - a bibtex database of citations
-* [citation-style-language/styles](https://github.com/citation-style-language/styles) - optional, for additional styles
 
-Set an environment variable `$CODEBASE` to where you will store the above git
-repositories
+## Building grant output
 
-```
-export CODEBASE=`pwd`/
-git clone git@github.com:nsheff/mediabuilder.git
-git clone git@github.com:nsheff/pandoc-wrapfig.git
-```
+After setting up mediabuilder, you can use `make` to build an output (tab-
+complete or see the [Makefile](/Makefile) to view available options).
+
+# Contents
+
+This repository contains:
+* [/output/merged.pdf](/output/merged.pdf) - PDF draft of merged (complete) application)
+* [/assets](/assets) - Misc documents
+* [/src](/src) - Markdown source for the documents
+* [/fig](/fig) - `.svg` source for figures
+* [/output](/output) - PDFs (or other formats) rendered from `src` by pandoc
+* [Makefile](Makefile) - recipes for compiling the PDF outputs from `src`
+

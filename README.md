@@ -2,6 +2,10 @@
 
 Fork this repository to write a new markdown grant.
 
+This repository contains `markdown` source documents rendered with
+[mediabuilder](https://github.com/nsheff/mediabuilder) and
+[pandoc](https://pandoc.org/). See [setup.md](/setup.md) for instructions.
+
 # Contents
 
 This repository contains:
