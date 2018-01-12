@@ -14,24 +14,31 @@ else
 bib = refs.bib
 endif
 
+all: figs aims approach refs merge
+
 aims:
-	pandoc `$(mbin)/ver src/specific_aims` \
+	$(mbin)/nobib `$(mbin)/ver src/specific_aims` | \
+	pandoc \
 	-o output/specific_aims.pdf \
 	--filter $(wrapfig) \
 	--template $(textemplate) \
+	--bibliography $(bib) \
 	--csl $(csl)
 
 approach:
-	pandoc `$(mbin)/ver src/significance_innovation` \
-	`$(mbin)/ver src/aim1` `$(mbin)/ver src/aim2` `$(mbin)/ver src/aim3` \
+	$(mbin)/nobib `$(mbin)/ver src/significance_innovation` \
+	`$(mbin)/ver src/aim1` `$(mbin)/ver src/aim2` `$(mbin)/ver src/aim3` | \
+	pandoc \
 	-o output/approach.pdf \
 	--filter $(wrapfig) \
 	--template $(textemplate) \
-	--bibliography grant.bib \
+	--bibliography $(bib) \
 	--csl $(csl)
 
 refs:
-	$(mbin)/getrefs `$(mbin)/ver src/research_proposal` | \
+	$(mbin)/getrefs `$(mbin)/ver src/specific_aims` \
+	`$(mbin)/ver src/significance_innovation` \
+	`$(mbin)/ver src/aim1` `$(mbin)/ver src/aim2` `$(mbin)/ver src/aim3` | \
 	pandoc \
 	-o output/references.pdf \
 	--filter $(wrapfig) \
@@ -44,7 +51,7 @@ figs:
 
 merge:
 	$(mbin)/mergepdf output/merged.pdf \
-	output/title_page.pdf \
-	output/research_proposal.pdf \
-	output/assembly_plan.pdf
+	output/specific_aims.pdf \
+	output/approach.pdf \
+	output/references.pdf
 
