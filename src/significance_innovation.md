@@ -1,15 +1,16 @@
+
 # Significance
-[@Sheffield2016]
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a turpis
-egestas, mattis ante sit amet, condimentum orci. Cras finibus efficitur
-lobortis. Proin vitae vehicula justo. Maecenas feugiat ante nec fringilla
-faucibus. Nullam hendrerit quam vel erat cursus tincidunt. Nulla id pharetra
-risus, in semper neque. Nunc id interdum urna. Sed est metus, dictum nec est
-facilisis, efficitur bibendum augue. Ut imperdiet, sem sed fringilla euismod,
-orci tortor mollis justo, in fermentum turpis nunc id eros. Phasellus vitae
-turpis ut velit varius imperdiet et a sapien. Phasellus dignissim viverra erat
-sed placerat. Vestibulum turpis risus, mattis nec sem eget, scelerisque tempus
-diam. Suspendisse suscipit placerat rutrum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit [@Sheffield2016].
+Maecenas a turpis egestas, mattis ante sit amet, condimentum orci. Cras finibus
+efficitur lobortis. Proin vitae vehicula justo. Maecenas feugiat ante nec
+fringilla faucibus. Nullam hendrerit quam vel erat cursus tincidunt. Nulla id
+pharetra risus, in semper neque. Nunc id interdum urna. Sed est metus, dictum
+nec est facilisis, efficitur bibendum augue. Ut imperdiet, sem sed fringilla
+euismod, orci tortor mollis justo, in fermentum turpis nunc id eros. Phasellus
+vitae turpis ut velit varius imperdiet et a sapien. Phasellus dignissim viverra
+erat sed placerat. Vestibulum turpis risus, mattis nec sem eget, scelerisque
+tempus diam. Suspendisse suscipit placerat rutrum.
 
 Nulla consectetur consectetur tellus pellentesque scelerisque. Pellentesque ut
 odio vitae sem fringilla consequat. Integer id facilisis turpis, at ullamcorper

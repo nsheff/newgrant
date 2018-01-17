@@ -1,15 +1,15 @@
 \pagenumbering{gobble}
 
 # Specific aims
-[@Sheffield2016]
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin
-sapien neque, a pulvinar erat pretium convallis. Mauris auctor justo ac
-dignissim auctor. Etiam ipsum lorem, congue sed porttitor vel, aliquet non leo.
-Nunc efficitur orci vitae vestibulum tempor. Duis accumsan hendrerit tellus ac
-accumsan. In tristique velit id tortor porttitor bibendum. Proin est risus,
-volutpat vel tellus sed, vestibulum tincidunt purus. Etiam egestas lacus dui,
-eget bibendum libero imperdiet a. Duis ac tortor tincidunt, vulputate nisi sed,
-sodales diam. Aenean luctus nisi sed neque rutrum tempor.
+sapien neque, a pulvinar erat pretium convallis [@Sheffield2016]. Mauris auctor
+justo ac dignissim auctor. Etiam ipsum lorem, congue sed porttitor vel, aliquet
+non leo. Nunc efficitur orci vitae vestibulum tempor. Duis accumsan hendrerit
+tellus ac accumsan. In tristique velit id tortor porttitor bibendum. Proin est
+risus, volutpat vel tellus sed, vestibulum tincidunt purus. Etiam egestas lacus
+dui, eget bibendum libero imperdiet a. Duis ac tortor tincidunt, vulputate nisi
+sed, sodales diam. Aenean luctus nisi sed neque rutrum tempor.
 
 Aenean id facilisis justo. Ut eu urna tempor, venenatis ante ac, dapibus mi.
 Morbi fermentum, lectus eu ultricies volutpat, lectus ligula feugiat sem,

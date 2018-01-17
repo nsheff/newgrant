@@ -1,13 +1,14 @@
-# Aim 3
-[@Sheffield2016]
+
+## Aim 3
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo augue,
-convallis nec nisi in, mollis ultrices diam. Phasellus quis ullamcorper quam,
-viverra placerat metus. Integer neque nisi, elementum vitae vulputate eget,
-varius a leo. Sed tempor felis vel lorem tristique porttitor. Cras et elit ac
-orci lacinia euismod vitae eget leo. Mauris venenatis fermentum nulla nec
-viverra. Integer eleifend neque diam, eget eleifend sapien cursus in. Duis
-convallis eleifend ligula, eget interdum lacus egestas quis. Aliquam auctor leo
-sit amet elit porta hendrerit.
+convallis nec nisi in, mollis ultrices diam [@Sheffield2016]. Phasellus quis
+ullamcorper quam, viverra placerat metus. Integer neque nisi, elementum vitae
+vulputate eget, varius a leo. Sed tempor felis vel lorem tristique porttitor.
+Cras et elit ac orci lacinia euismod vitae eget leo. Mauris venenatis fermentum
+nulla nec viverra. Integer eleifend neque diam, eget eleifend sapien cursus in.
+Duis convallis eleifend ligula, eget interdum lacus egestas quis. Aliquam auctor
+leo sit amet elit porta hendrerit.
 
 Nam tristique purus facilisis, ultrices mi in, mollis ligula. Maecenas mattis
 consequat dui sed pellentesque. Aenean enim magna, luctus vitae orci sit amet,

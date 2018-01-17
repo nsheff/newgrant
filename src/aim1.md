@@ -1,4 +1,8 @@
-# Aim 1
+\newpage
+
+# Approach
+
+## Aim 1
 
 ![example figure](fig/example_figure.png)
 
