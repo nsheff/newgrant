@@ -4,7 +4,7 @@
 
 ## Aim 1
 
-![example figure](fig/example_figure.png)
+![Fig. 1: example figure](fig/example_figure.png)
 
 Example citation [@Sheffield2016]. Lorem ipsum dolor sit amet, consectetur
 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna

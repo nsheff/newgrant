@@ -14,7 +14,16 @@ else
 bib = refs.bib
 endif
 
-all: figs aims approach refs merge
+all: figs abstract aims approach refs merge
+
+abstract:
+	$(mbin)/nobib `$(mbin)/ver src/abstract` | \
+	pandoc \
+	-o output/abstract.pdf \
+	--filter $(wrapfig) \
+	--template $(textemplate) \
+	--bibliography $(bib) \
+	--csl $(csl)
 
 aims:
 	$(mbin)/nobib `$(mbin)/ver src/specific_aims` | \
