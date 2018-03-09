@@ -13,6 +13,7 @@ bib = ${CODEBASE}papers/sheffield.bib
 else
 bib = refs.bib
 endif
+today=`date +%y%m%d`
 
 all: figs abstract aims approach refs merge
 
@@ -34,7 +35,23 @@ aims:
 	--bibliography $(bib) \
 	--csl $(csl)
 
+
+
+# Have to stick the specific aims into the approach typically, so that citations
+# can be managed across both (they can't be separate or it will throw the
+# numbering off )
 approach:
+	$(mbin)/nobib `$(mbin)/ver src/specific_aims` \
+	`$(mbin)/ver src/significance_innovation` \
+	`$(mbin)/ver src/aim1` `$(mbin)/ver src/aim2` `$(mbin)/ver src/aim3` | \
+	pandoc \
+	-o output/aims_approach.pdf \
+	--filter $(wrapfig) \
+	--template $(textemplate) \
+	--bibliography $(bib) \
+	--csl $(csl)
+
+approach_only:
 	$(mbin)/nobib `$(mbin)/ver src/significance_innovation` \
 	`$(mbin)/ver src/aim1` `$(mbin)/ver src/aim2` `$(mbin)/ver src/aim3` | \
 	pandoc \
@@ -43,6 +60,8 @@ approach:
 	--template $(textemplate) \
 	--bibliography $(bib) \
 	--csl $(csl)
+
+
 
 refs:
 	$(mbin)/getrefs `$(mbin)/ver src/specific_aims` \
